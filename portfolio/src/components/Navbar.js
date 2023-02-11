@@ -1,28 +1,46 @@
 import React from 'react';
-import '../styles/Navbar.css';
-
-// By importing the Navbar.css file, it is added to the DOM whenever this component loads
-
-// We can also style a component inside of its JavaScript file by adding style properties to its rendered elements
-// Unlike regular HTML, a JSX style property must be an object instead of a string
-// On a style object, we camelCase all property names, and put all of the values in quotes
-// Non quoted values default to "pixels", e.g. height, margin, padding
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
 const styles = {
-  navbarStyle: {
-    background: 'green',
-    justifyContent: 'flex-end',
+  name: {
+    display: 'flex',
+   fontSize: '50px',
+   paddingLeft: '80px',
+   fontFamily: 'palatino'
   },
+  navbar: {
+    display: 'flex',
+    justifyContent: 'space-between',
+    background: 'linear-gradient(90deg,dodgerblue,green)',
+    border: 'solid 7.5px ',
+  },
+  container: {
+    padding: '0'
+  },
+  tabs: {
+    paddingRight: '50px',
+    fontSize: '25px',
+    
+  }
 };
 
-// We use JSX curly braces to evaluate the style object on the JSX tag
-
-function Navbar() {
+function HomeBar() {
   return (
-    <nav style={styles.navbarStyle} className="navbar">
-      <a href="/">Welcome</a>
-    </nav>
+    <>
+     <Container fluid style={styles.container}>
+       <Navbar bg="dark" variant="dark" style={styles.navbar}>
+          <Navbar.Brand style={styles.name}>David Stewart</Navbar.Brand>
+          <Nav style={styles.tabs}>
+            <Nav.Link href="#Bio">About me</Nav.Link>
+            <Nav.Link href="#Applications">Applications</Nav.Link>
+            <Nav.Link href="#Contact">Contact</Nav.Link>
+          </Nav>
+       </Navbar>
+     </Container>
+    </>
   );
 }
 
-export default Navbar;
+export default HomeBar;
