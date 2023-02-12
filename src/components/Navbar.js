@@ -35,12 +35,7 @@ const styles = {
     display: 'flex',
     justifyContent: 'space-evenly',
     flexWrap: 'nowrap',
-  },
-  colstyles1: {
-    display: 'flex',
-    justifyContent: 'space-evenly',
-    flexWrap: 'nowrap',
-  },
+  }
 };
 
 function HomeBar() {
@@ -51,7 +46,7 @@ function HomeBar() {
           <Col md={6} style={styles.colstyles}>
             <h1 style={styles.name}><strong>David Stewart</strong></h1>
           </Col>
-          <Col md={6} style={styles.colstyles1} className='ms-2' class="hideScroll">
+          <Col md={6} style={styles.colstyles} className='ms-2' class="hideScroll">
            <nav style={styles.tabs}> 
              <a href="#Bio" style={styles.tabItems}>Me</a>
              <a href="#Applications" style={styles.tabItems}>Applications</a>
