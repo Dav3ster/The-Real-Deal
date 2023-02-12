@@ -3,9 +3,9 @@ import Section from "./components/Section";
 import HomeBar from "./components/Navbar";
 import Button from "./components/Button";
 
-function App() {
+const App = () => {
   return (
-    <div>
+    <div> 
       <HomeBar />
       <Section />
       <Button />

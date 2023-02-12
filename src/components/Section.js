@@ -16,7 +16,7 @@ const styles = {
   photo: {
     display: 'flex',
     borderRadius: 30,
-    border:'solid 5px black',
+    border:'solid 7.5px black',
     width: 'auto',
     maxHeight: '500px',
     minHeight: '250px',
@@ -38,7 +38,7 @@ const styles = {
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
-    border: 'solid 5px black',
+    border: 'solid 7.5px black',
     borderRadius: '30px',
     backgroundImage: 'linear-gradient(45deg, dodgerblue, white, green)',
     width: 'auto',
@@ -46,12 +46,17 @@ const styles = {
     minHeight: '250px',
     minWidth: '250px'  
   },
-  h3:{
-    marginBottom: '30px',
-  },
   row1:{
     height: 'auto'
-  }
+  },
+  title:{
+    fontFamily: 'palatino',
+    color: 'black',
+    textShadow: '2px 2px 3px white',
+  },
+  title2:{
+    marginBottom: '30px',
+  },
 };
 
 // We use JSX curly braces to evaluate the style object on the JSX tag
@@ -61,13 +66,16 @@ function Section() {
     <Container fluid style={styles.container}>
       <Row style={styles.row1}>
         <Col md={1}></Col>
-       <Col md={5} style={styles.colstyles}>
-       <img src={require('../images/Me&Rebecca.jpg')} className='img-fluid mx-4 my-3' alt='Me&Rebecca' style={styles.photo}/>
+       <Col md={5} style={styles.colstyles} className='mb-3'>
+        <center>
+          <h3 style={styles.title} className='mt-2'><strong>UI/UX Design & Software Developer</strong></h3>
+        </center>
+       <img src={require('../images/Me&Rebecca.jpg')} className='img-fluid mx-4 mt-1' alt='Me&Rebecca' style={styles.photo}/>
        </Col>
        <Col md={5} style={styles.colstyles}>
-        <section style={styles.pcontainer} className='mx-4 my-3'>
+        <section style={styles.pcontainer} className='mx-4 mt-5'>
           <div style={styles.pstyles}>
-          <h3 style={styles.h3}><em>⭐ ~A little about myself~ ⭐</em></h3>
+          <h3 style={styles.title2}><em>⭐ ~A little about myself~ ⭐</em></h3>
            <p>   
             Born and raised in North Carolina, in the RDU area.<br></br><br></br>
             I will be graduating UNC's full stack web development bootcamp this March.<br></br><br></br>
