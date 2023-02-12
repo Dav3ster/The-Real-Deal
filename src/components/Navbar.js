@@ -26,7 +26,7 @@ const styles = {
     responsive: 'true',
   },
   tabItems: {
-    fontSize: '40px',
+    fontSize: '37.5px',
     color: 'white',
     padding: '15px',
     textShadow: '2px 2px 3px black'
@@ -39,7 +39,7 @@ function HomeBar() {
      <Container fluid style={styles.container}>
        <Row bg="dark" style={styles.navbar}>
           <Col md={6}>
-            <h1 style={styles.name}><strong>David Stewart</strong></h1><br></br>
+            <h1 style={styles.name}><strong>David Stewart</strong></h1>
           </Col>
           <Col md={6} className='ms-2'>
            <nav style={styles.tabs}> 
