@@ -16,21 +16,31 @@ const styles = {
     justifyContent: 'space-around',
     background: 'linear-gradient(45deg,silver,green,dodgerblue)',
     border: 'solid 7.5px black ',
-    padding: '10px'
+    padding: '10px',
   },
   container: {
     width: '100%',
     padding: '0',
   },
   tabs: {
-    responsive: 'true',
+    responsive: 'true'
   },
   tabItems: {
     fontSize: '37.5px',
     color: 'white',
     padding: '15px',
     textShadow: '2px 2px 3px black'
-  }
+  },
+  colstyles: {
+    display: 'flex',
+    justifyContent: 'space-evenly',
+    flexWrap: 'nowrap',
+  },
+  colstyles1: {
+    display: 'flex',
+    justifyContent: 'space-evenly',
+    flexWrap: 'nowrap',
+  },
 };
 
 function HomeBar() {
@@ -38,10 +48,10 @@ function HomeBar() {
     <>
      <Container fluid style={styles.container}>
        <Row bg="dark" style={styles.navbar}>
-          <Col md={6}>
+          <Col md={6} style={styles.colstyles}>
             <h1 style={styles.name}><strong>David Stewart</strong></h1>
           </Col>
-          <Col md={6} className='ms-2'>
+          <Col md={6} style={styles.colstyles1} className='ms-2' class="hideScroll">
            <nav style={styles.tabs}> 
              <a href="#Bio" style={styles.tabItems}>Me</a>
              <a href="#Applications" style={styles.tabItems}>Applications</a>
