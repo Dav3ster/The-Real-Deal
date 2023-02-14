@@ -6,6 +6,7 @@ import Col from 'react-bootstrap/Col';
 const styles = {
     container: {
         background: 'linear-gradient(20deg,dodgerblue,green,silver)',
+        borderBottom: 'solid 7.5px black'
       },
       colstyles:{
         padding: '10px'
