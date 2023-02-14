@@ -35,7 +35,7 @@ const styles = {
     pstyles:{
         margin: '10px',
         fontFamily: 'palatino',
-        fontSize: '20px',
+        fontSize: '22px',
 
     },
     h2styles:{
