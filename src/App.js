@@ -1,16 +1,27 @@
 import React from 'react';
-import Section from "./components/Section";
 import HomeBar from "./components/Navbar";
-import Button from "./components/Button";
-import Footer from "./components/Footer"
+import Home from "./pages/Home";
+import Applications from "./pages/Applicaitons";
+import Contact from "./pages/Contact"
 
 const App = () => {
+  let component
+  // eslint-disable-next-line
+  switch (window.location.pathname) {
+    case "/":
+      component = <Home />
+      break
+    case "/Applications":
+      component = <Applications />
+      break
+    case "/Contact":
+      component = <Contact />
+      break
+  }
   return (
     <div> 
       <HomeBar />
-      <Section />
-      <Button />
-      <Footer />
+      {component}
     </div>
   );
 }
