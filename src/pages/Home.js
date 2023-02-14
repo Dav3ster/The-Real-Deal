@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import Section from "../components/Section";
 import Button from "../components/Button";
 import Footer from "../components/Footer";
