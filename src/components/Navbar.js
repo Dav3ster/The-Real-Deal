@@ -5,18 +5,17 @@ import Col from 'react-bootstrap/Navbar';
 
 const styles = {
   name: {
-   fontSize: '65px',
+   fontSize: '85px',
    fontFamily: 'palatino',
    responsive: 'true',
    color: 'black',
-   textShadow: '2px 2px 3px white'
+   textShadow: '2px 2px 3px white',
   },
   navbar: {
     display: 'flex',
     justifyContent: 'space-around',
     background: 'linear-gradient(45deg,silver,green,dodgerblue)',
     border: 'solid 7.5px black ',
-    padding: '10px',
   },
   container: {
     width: '100%',
@@ -26,25 +25,26 @@ const styles = {
     responsive: 'true'
   },
   tabItems: {
+    display: 'flex',
     fontSize: '37.5px',
     color: 'white',
-    padding: '15px',
+    padding: '5px',
     textShadow: '2px 2px 3px black',
     textDecoration: 'none',
-    height: '100%'
+    height: '100%',
   
   },
   colstyles: {
     display: 'flex',
     justifyContent: 'space-evenly',
-    flexWrap: 'nowrap',
+    flexWrap: 'wrap',
   },
   ul:{
     listStyle: 'none',
     display: 'flex',
-    flexDirection: 'row',
+    flexDirection: 'column',
     alignItems: 'center',
-    marginTop: '12.5px'
+    padding: '0px 10px 0px 30px'  
   }
 };
 
@@ -56,7 +56,7 @@ function HomeBar() {
           <Col md={6} style={styles.colstyles}>
             <h1 style={styles.name}><strong>David Stewart</strong></h1>
           </Col>
-          <Col md={6} style={styles.colstyles} className='ms-2' class="hideScroll">
+          <Col md={6} style={styles.colstyles}>
            <nav style={styles.tabs} className='nav'> 
             <ul style={styles.ul}>
              <li><a href="/" style={styles.tabItems}>Home</a></li>
