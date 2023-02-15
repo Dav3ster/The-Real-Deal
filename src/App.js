@@ -10,7 +10,6 @@ const App = () => {
     <Router>
       <div> 
        <HomeBar />
-       <div>
          <Switch>
           <Route exact path="/">
             <Home />
@@ -22,7 +21,6 @@ const App = () => {
             <Contact />
           </Route>
          </Switch>
-       </div>
       </div>
     </Router>
   );
