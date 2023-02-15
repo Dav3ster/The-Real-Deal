@@ -3,26 +3,28 @@ import HomeBar from "./components/Navbar";
 import Home from "./pages/Home";
 import Applications from "./pages/Applicaitons";
 import Contact from "./pages/Contact"
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 const App = () => {
-  let component
-  // eslint-disable-next-line
-  switch (window.location.pathname) {
-    case "/":
-      component = <Home />
-      break
-    case "/Applications":
-      component = <Applications />
-      break
-    case "/Contact":
-      component = <Contact />
-      break
-  }
   return (
-    <div> 
-      <HomeBar />
-      {component}
-    </div>
+    <Router>
+      <div> 
+       <HomeBar />
+       <div>
+         <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route exact path="/Applications">
+            <Applications />
+          </Route>
+          <Route exact path="/Contact">
+            <Contact />
+          </Route>
+         </Switch>
+       </div>
+      </div>
+    </Router>
   );
 }
 
