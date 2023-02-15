@@ -3,27 +3,22 @@ import HomeBar from "./components/Navbar";
 import Home from "./pages/Home";
 import Applications from "./pages/Applicaitons";
 import Contact from "./pages/Contact"
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 const App = () => {
   return (
     <Router>
       <div> 
        <HomeBar />
-         <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route exact path="/Applications">
-            <Applications />
-          </Route>
-          <Route exact path="/Contact">
-            <Contact />
-          </Route>
-         </Switch>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/Apllications" element={<Applications />} />
+          <Route exact path="/Contact" element={<Contact />} />
+        </Routes>
       </div>
     </Router>
   );
 }
 
 export default App;
+
