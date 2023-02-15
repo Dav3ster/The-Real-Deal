@@ -11,7 +11,7 @@ const App = () => {
       <div> 
        <HomeBar />
          <Switch>
-          <Route exact path="https://dav3ster.github.io/The-Real-Deal/">
+          <Route exact path="https://dav3ster.github.io/The-Real-Deal">
             <Home />
           </Route>
           <Route exact path="https://dav3ster.github.io/Applications">
