@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/The-Real-Deal/static/css/main.a04a0428.css",
-    "main.js": "/The-Real-Deal/static/js/main.ad2ce732.js",
+    "main.js": "/The-Real-Deal/static/js/main.ddea74ba.js",
     "static/media/WeatherForecaster.png": "/The-Real-Deal/static/media/WeatherForecaster.aa3994503558e7d72fb6.png",
     "static/media/MePhoto1.jpg": "/The-Real-Deal/static/media/MePhoto1.081b0109e5752847fb45.jpg",
     "static/media/Fullstacks.png": "/The-Real-Deal/static/media/Fullstacks.ba5c974b7e7ed5bac4cd.png",
@@ -11,10 +11,10 @@
     "static/media/PasswordGenerator.png": "/The-Real-Deal/static/media/PasswordGenerator.20023cfe9c98c4be3451.png",
     "index.html": "/The-Real-Deal/index.html",
     "main.a04a0428.css.map": "/The-Real-Deal/static/css/main.a04a0428.css.map",
-    "main.ad2ce732.js.map": "/The-Real-Deal/static/js/main.ad2ce732.js.map"
+    "main.ddea74ba.js.map": "/The-Real-Deal/static/js/main.ddea74ba.js.map"
   },
   "entrypoints": [
     "static/css/main.a04a0428.css",
-    "static/js/main.ad2ce732.js"
+    "static/js/main.ddea74ba.js"
   ]
 }
