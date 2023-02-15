@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/The-Real-Deal/static/css/main.a04a0428.css",
-    "main.js": "/The-Real-Deal/static/js/main.ddea74ba.js",
-    "static/media/WeatherForecaster.png": "/The-Real-Deal/static/media/WeatherForecaster.aa3994503558e7d72fb6.png",
-    "static/media/MePhoto1.jpg": "/The-Real-Deal/static/media/MePhoto1.081b0109e5752847fb45.jpg",
-    "static/media/Fullstacks.png": "/The-Real-Deal/static/media/Fullstacks.ba5c974b7e7ed5bac4cd.png",
-    "static/media/MePhoto2.jpg": "/The-Real-Deal/static/media/MePhoto2.ee627ea0dce377ab640d.jpg",
-    "static/media/Me&Rebecca.jpg": "/The-Real-Deal/static/media/Me&Rebecca.ae2675c86292c075da24.jpg",
-    "static/media/CodeQuiz.png": "/The-Real-Deal/static/media/CodeQuiz.4128e0f7c01060672632.png",
-    "static/media/PasswordGenerator.png": "/The-Real-Deal/static/media/PasswordGenerator.20023cfe9c98c4be3451.png",
-    "index.html": "/The-Real-Deal/index.html",
-    "main.a04a0428.css.map": "/The-Real-Deal/static/css/main.a04a0428.css.map",
-    "main.ddea74ba.js.map": "/The-Real-Deal/static/js/main.ddea74ba.js.map"
+    "main.css": "/static/css/main.a04a0428.css",
+    "main.js": "/static/js/main.7b5ae4c4.js",
+    "static/media/WeatherForecaster.png": "/static/media/WeatherForecaster.aa3994503558e7d72fb6.png",
+    "static/media/MePhoto1.jpg": "/static/media/MePhoto1.081b0109e5752847fb45.jpg",
+    "static/media/Fullstacks.png": "/static/media/Fullstacks.ba5c974b7e7ed5bac4cd.png",
+    "static/media/MePhoto2.jpg": "/static/media/MePhoto2.ee627ea0dce377ab640d.jpg",
+    "static/media/Me&Rebecca.jpg": "/static/media/Me&Rebecca.ae2675c86292c075da24.jpg",
+    "static/media/CodeQuiz.png": "/static/media/CodeQuiz.4128e0f7c01060672632.png",
+    "static/media/PasswordGenerator.png": "/static/media/PasswordGenerator.20023cfe9c98c4be3451.png",
+    "index.html": "/index.html",
+    "main.a04a0428.css.map": "/static/css/main.a04a0428.css.map",
+    "main.7b5ae4c4.js.map": "/static/js/main.7b5ae4c4.js.map"
   },
   "entrypoints": [
     "static/css/main.a04a0428.css",
-    "static/js/main.ddea74ba.js"
+    "static/js/main.7b5ae4c4.js"
   ]
 }
