@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/the-real-deal/static/css/main.a04a0428.css",
+    "main.js": "/the-real-deal/static/js/main.43d52a7a.js",
+    "static/media/WeatherForecaster.png": "/the-real-deal/static/media/WeatherForecaster.aa3994503558e7d72fb6.png",
+    "static/media/MePhoto1.jpg": "/the-real-deal/static/media/MePhoto1.081b0109e5752847fb45.jpg",
+    "static/media/Fullstacks.png": "/the-real-deal/static/media/Fullstacks.ba5c974b7e7ed5bac4cd.png",
+    "static/media/MePhoto2.jpg": "/the-real-deal/static/media/MePhoto2.ee627ea0dce377ab640d.jpg",
+    "static/media/Me&Rebecca.jpg": "/the-real-deal/static/media/Me&Rebecca.ae2675c86292c075da24.jpg",
+    "static/media/CodeQuiz.png": "/the-real-deal/static/media/CodeQuiz.4128e0f7c01060672632.png",
+    "static/media/PasswordGenerator.png": "/the-real-deal/static/media/PasswordGenerator.20023cfe9c98c4be3451.png",
+    "index.html": "/the-real-deal/index.html",
+    "main.a04a0428.css.map": "/the-real-deal/static/css/main.a04a0428.css.map",
+    "main.43d52a7a.js.map": "/the-real-deal/static/js/main.43d52a7a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a04a0428.css",
+    "static/js/main.43d52a7a.js"
+  ]
+}
