@@ -11,13 +11,13 @@ const App = () => {
       <div> 
        <HomeBar />
          <Switch>
-          <Route exact path="/">
+          <Route exact path="https://dav3ster.github.io/The-Real-Deal/">
             <Home />
           </Route>
-          <Route exact path="/Applications">
+          <Route exact path="https://dav3ster.github.io/Applications">
             <Applications />
           </Route>
-          <Route exact path="/Contact">
+          <Route exact path="https://dav3ster.github.io/Contact">
             <Contact />
           </Route>
          </Switch>
