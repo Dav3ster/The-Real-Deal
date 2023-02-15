@@ -60,9 +60,9 @@ function HomeBar() {
           <Col md={6} style={styles.colstyles}>
            <nav style={styles.tabs} className='nav'> 
             <ul style={styles.ul}>
-             <li><Link to="/" style={styles.tabItems}>Home</Link></li>
-             <li><Link to="/Applications" style={styles.tabItems}>Applications</Link></li>
-             <li><Link to="/Contact" style={styles.tabItems}>Contact</Link></li>
+             <li><Link to={"/"} style={styles.tabItems}>Home</Link></li>
+             <li><Link to={"/Applications"} style={styles.tabItems}>Applications</Link></li>
+             <li><Link to={"/Contact"} style={styles.tabItems}>Contact</Link></li>
             </ul>
            </nav>
           </Col>
