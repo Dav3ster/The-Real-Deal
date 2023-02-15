@@ -5,14 +5,19 @@ import Col from 'react-bootstrap/Col';
 
 const styles = {
     footer: {
+        display: 'flex',
         background: 'linear-gradient(45deg,green,silver,dodgerblue)',
-        padding: '10px'
+        padding: '10px',
+        height: '200px',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center'
     },
     linkTitle:{
         color: 'black',
         textShadow: '1px 2px 3px blue',
         fontFamily: 'palatino',
-    }
+    },
 }
 
 function Footer() {
