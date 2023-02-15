@@ -1,8 +1,8 @@
 import React from 'react';
 import HomeBar from "./components/Navbar";
-import Home from "./components/Home";
-import Applications from "./components/Applicaitons";
-import Contact from "./components/Contact"
+import Home from "./pages/Home";
+import Applications from "./pages/Applicaitons";
+import Contact from "./pages/Contact"
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 const App = () => {
@@ -19,4 +19,3 @@ const App = () => {
 }
 
 export default App;
-
