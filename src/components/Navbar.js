@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom"
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Nav';
 import Col from 'react-bootstrap/Navbar';
@@ -59,9 +60,9 @@ function HomeBar() {
           <Col md={6} style={styles.colstyles}>
            <nav style={styles.tabs} className='nav'> 
             <ul style={styles.ul}>
-             <li><a href="/" style={styles.tabItems}>Home</a></li>
-             <li><a href="/Applications" style={styles.tabItems}>Applications</a></li>
-             <li><a href="/Contact" style={styles.tabItems}>Contact</a></li>
+             <li><Link href="/" style={styles.tabItems}>Home</Link></li>
+             <li><Link href="/Applications" style={styles.tabItems}>Applications</Link></li>
+             <li><Link href="/Contact" style={styles.tabItems}>Contact</Link></li>
             </ul>
            </nav>
           </Col>
