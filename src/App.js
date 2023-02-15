@@ -3,8 +3,7 @@ import HomeBar from "./components/Navbar";
 import Home from "./components/Home";
 import Applications from "./components/Applicaitons";
 import Contact from "./components/Contact"
-// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 const App = () => {
   return (
