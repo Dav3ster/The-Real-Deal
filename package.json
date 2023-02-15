@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://Dav3ster.github.io/The-Real-Deal",
+  "homepage": "https://Dav3ster.github.io/the-real-deal",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
