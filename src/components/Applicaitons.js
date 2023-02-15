@@ -1,5 +1,5 @@
-import Footer from "../components/Footer";
-import Showcase from "../components/Showcase"
+import Footer from "./Footer";
+import Showcase from "./Showcase"
 
 export default function Applications(){
     return (

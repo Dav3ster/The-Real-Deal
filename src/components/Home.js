@@ -1,7 +1,7 @@
 import React from "react";
-import Section from "../components/Section";
-import Button from "../components/Button";
-import Footer from "../components/Footer";
+import Section from "./Section";
+import Button from "./Button";
+import Footer from "./Footer";
 
 export default function Home(){
     return (
