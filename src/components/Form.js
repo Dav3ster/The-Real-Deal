@@ -56,6 +56,8 @@ function Form() {
       }, (error) => {
           console.log(error.text);
       });
+
+      alert('Email sent successfully!')
   };
 
     return (
