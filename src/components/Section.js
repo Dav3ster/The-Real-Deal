@@ -73,6 +73,13 @@ function Section() {
        <img src={require('../images/Me&Rebecca.jpg')} className='img-fluid mx-4 mt-1' alt='Me&Rebecca' style={styles.photo}/>
        </Col>
        <Col md={5} style={styles.colstyles}>
+        <style>
+          {`
+            ::-webkit-scrollbar{
+              display: none;
+            }
+          `}
+        </style>
         <section style={styles.pcontainer} className='mx-4 mt-5'>
           <div style={styles.pstyles}>
           <h3 style={styles.title2}><em>⭐ ~A little about myself~ ⭐</em></h3>
