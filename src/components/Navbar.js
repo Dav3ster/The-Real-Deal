@@ -10,6 +10,9 @@ const styles = {
    fontFamily: 'palatino',
    color: 'black',
    textShadow: '2px 2px 3px white',
+   display: 'flex',
+   justifyContent:'center'
+
   },
   navbar: {
     display: 'flex',
@@ -55,7 +58,7 @@ function HomeBar() {
      <Container fluid style={styles.container}>
        <Row bg="dark" style={styles.navbar}>
           <Col md={6} style={styles.colstyles}>
-            <h1 style={styles.name}><strong>David Stewart</strong></h1>
+            <h1 style={styles.name}><center><strong>David Stewart</strong></center></h1>
           </Col>
           <Col md={6} style={styles.colstyles}>
            <nav style={styles.tabs} className='nav'> 
