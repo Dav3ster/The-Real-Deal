@@ -68,7 +68,7 @@ function Section() {
         <Col md={1}></Col>
        <Col md={5} style={styles.colstyles} className='mb-3'>
         <center>
-          <h3 style={styles.title} className='mt-2'><strong>UI/UX Design & Software Developer</strong></h3>
+          <h3 style={styles.title} className='mt-2'><strong>Full-Stack Software Developer</strong></h3>
         </center>
        <img src={require('../images/Me&Rebecca.jpg')} className='img-fluid mx-4 mt-1' alt='Me&Rebecca' style={styles.photo}/>
        </Col>

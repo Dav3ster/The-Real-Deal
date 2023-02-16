@@ -8,7 +8,6 @@ const styles = {
   name: {
    fontSize: '85px',
    fontFamily: 'palatino',
-   responsive: 'true',
    color: 'black',
    textShadow: '2px 2px 3px white',
   },
@@ -37,8 +36,9 @@ const styles = {
   },
   colstyles: {
     display: 'flex',
-    justifyContent: 'space-evenly',
-    flexWrap: 'wrap',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   ul:{
     listStyle: 'none',

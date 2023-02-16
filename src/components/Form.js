@@ -19,16 +19,6 @@ const styles = {
         minWidth: '250px',
         margin: '10px'    
       },
-      photo1: {
-        display: 'flex',
-        borderRadius: 30,
-        border:'solid 7.5px black',
-        width: 'auto',
-        maxHeight: '500px',
-        minHeight: '500px',
-        minWidth: '250px',
-        margin: '10px 10px 10px 95px'    
-      },
       RowStyles:{
         display: 'flex',
         justifyContent: 'space-evenly'
@@ -44,6 +34,12 @@ const styles = {
         color: 'black',
         textShadow: '1px 2px 3px lightblue',
         fontFamily: 'palatino',
+    },
+    col:{
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'center',
+      alignItems: 'center',
     }
 }
 
@@ -65,8 +61,8 @@ function Form() {
     return (
     <Container fluid style={styles.container}>
      <Row style={styles.RowStyles}>
-        <Col m={4}>
-        <img src={require('../images/MePhoto1.jpg')} className='img-fluid' alt='MePhoto1' style={styles.photo1}/>
+        <Col m={4} style={styles.col}>
+        <img src={require('../images/MePhoto1.jpg')} className='img-fluid' alt='MePhoto1' style={styles.photo}/>
         </Col>
 
         <Col m={4}>
@@ -82,8 +78,8 @@ function Form() {
         </form>
         </Col>
 
-        <Col m={4}>
-        <img src={require('../images/MePhoto2.jpg')} className='img-fluid ms-3' alt='MePhoto1' style={styles.photo}/>
+        <Col m={4} style={styles.col}>
+        <img src={require('../images/MePhoto2.jpg')} className='img-fluid' alt='MePhoto1' style={styles.photo}/>
         </Col>
      </Row>
     </Container>
