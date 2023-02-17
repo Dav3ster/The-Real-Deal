@@ -52,7 +52,7 @@ function Showcase() {
       <Col m={6} style={styles.colstyles}>
       <center><h2 style={styles.h2styles}>FullStacksCafe</h2></center>  
       <img src={require('../images/Fullstacks.png')} className='img-fluid' alt='fullstacks' style={styles.photo}/>
-      <center><p style={styles.pstyles}>This full stack application serves as an ordering system for a cafe. This MVP iteration works as an ordering app on in-house kiosks at each table, customers can select their order and send it to the kitchen where each order can reviewd on a command line interface system. This application is scalable to become a full service online ordering website and menu page, as well as being tied in to an automated ticket printer.</p></center>
+      <center><p style={styles.pstyles}>This full stack application serves as an ordering system for a cafe. This MVP iteration works as an ordering app on in-house kiosks at each table, customers can select their order and send it to the kitchen where each order can be reviewd on a command line interface system. This application is scalable to become a full service online ordering website and menu page, as well as being tied in to an automated ticket printer.</p></center>
       <center>
         <img src={require('../images/001-mysql.png')} alt='badgelogo' style={styles.badges}/>
         <img src={require('../images/002-nodejs.png')} alt='badgelogo' style={styles.badges}/>
