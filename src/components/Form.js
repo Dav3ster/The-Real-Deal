@@ -28,7 +28,7 @@ const styles = {
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
-        marginTop: '25px'
+        marginTop: '25px',
       },
       h2styles:{
         color: 'black',
@@ -40,6 +40,14 @@ const styles = {
       flexDirection: 'column',
       justifyContent: 'center',
       alignItems: 'center',
+    },
+    textArea:{
+      width: '300px',
+      height: '225px',
+      borderRadius: '5px'
+    },
+    Radius:{
+      borderRadius: '5px'
     }
 }
 
@@ -71,11 +79,11 @@ function Form() {
         <form ref={form} onSubmit={sendEmail} style={styles.form}>
           <h2 style={styles.h2styles}><strong>Feel free to reach out!</strong></h2>  
           <label>-Name-</label>
-          <input type="text" name="user_name" /><br></br>
+          <input type="text" name="user_name" style={styles.Radius} /><br></br>
           <label>-Email-</label>
-          <input type="email" name="user_email" /><br></br>
+          <input type="email" name="user_email" style={styles.Radius} /><br></br>
           <label>-Message-</label>
-          <textarea name="message" />
+          <textarea style={styles.textArea} name="message" />
           <input type="submit" value="Send" className='mt-2'/>
         </form>
         </Col>
