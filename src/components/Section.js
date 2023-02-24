@@ -66,11 +66,12 @@ function Section() {
     <Container fluid style={styles.container}>
       <Row style={styles.row1}>
         <Col md={1}></Col>
-       <Col md={5} style={styles.colstyles} className='mb-3'>
+       <Col md={5} style={styles.colstyles} className='mb-1'>
         <center>
           <h3 style={styles.title} className='mt-2'><strong>Full-Stack Software Developer</strong></h3>
         </center>
        <img src={require('../images/Me&Rebecca.jpg')} className='img-fluid mx-4 mt-1' alt='Me&Rebecca' style={styles.photo}/>
+       <center><h4 style={styles.title} className='mt-2'>~ My lovely wife Rebecca & myself ~</h4></center>
        </Col>
        <Col md={5} style={styles.colstyles}>
         <style>

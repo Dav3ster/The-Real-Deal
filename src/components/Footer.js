@@ -26,9 +26,10 @@ function Footer() {
         <Row style={styles.footer}>
          <Col md={12}>
             <center>
-            <h4 style={styles.linkTitle}>Additonal Links</h4>
+            <h4 style={styles.linkTitle}>Additonal Links & Email</h4>
             <a href="https://github.com/Dav3ster">Github Profile</a><br></br>
             <a href="https://www.linkedin.com/in/david-stewart-8b046725a/">Linkedin Profile</a>
+            <h5 style={styles.linkTitle} className= "mt-2">Davidstew87@gmail.com</h5>
             </center>
          </Col>
         </Row>
