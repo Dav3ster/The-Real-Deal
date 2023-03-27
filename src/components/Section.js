@@ -86,7 +86,7 @@ function Section() {
           <h3 style={styles.title2}><em>⭐ ~A little about myself~ ⭐</em></h3>
            <p>   
             Born and raised in North Carolina, in the RDU area.<br></br><br></br>
-            I am currently working on bringing my passion for design, and efficient functionality to the web by taking UNC Chapel Hill's Full-stack web development program. I am well versed in JavaScript, CSS, HTML, SQL, 3rd Party Web APIs, Node, Express, Mongo, and most recently React. With more to come.<br></br><br></br>
+            I am currently working on bringing my passion for design, and efficient functionality to the web! Having recently completed UNC Chapel Hill's Full-stack web development boot-camp. I am well versed in JavaScript, CSS, HTML, SQL, 3rd Party Web APIs, Node, Express, Mongo, and most recently React. With more to come.<br></br><br></br>
             I have 10 years of high precision manufacturing experience to my name. During those years I set-up, programmed, and designed multi-step automated processes for multi-axis CNC machines, using numerous varieties of CAD and conversational software's. Working side by with engineers, I developed a keen eye for quality schematics, and a mind for efficient, and effective processes. I really enjoy the whole development process, and take pride in seeing a scratch idea come to life.<br></br><br></br>
             In my spare time, my main hobby is playing music. I play the guitar & keyboard. 
            </p>
